@@ -1,5 +1,6 @@
 # rpi4b-base-system
 Загрузочная флешка для Raspberry PI 4B+
+
 rpi-base-system/
 ├── scripts/              # Bash-скрипты для быстрой настройки (Этапы 1-4)
 │   ├── 01_security.sh    # SSH, ключи, отключение паролей
