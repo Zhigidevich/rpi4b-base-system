@@ -1,5 +1,6 @@
 # rpi4b-base-system
 Загрузочная флешка для Raspberry PI 4B+
+выполнение сделать в виде ansible ролей
 
 rpi-base-system/
 
@@ -24,6 +25,26 @@ rpi-base-system/
 ├── docs/                 # Документация по железу
 
 └── README.md             # Инструкция: "Как развернуть базу на чистой Ubuntu 26.04"
+
+
+
+
+rpi4b-base-system/
+
+├── roles/
+
+│   ├── security/        # Эпик 1
+
+│   ├── performance/     # Эпик 2
+
+│   ├── network/         # Эпик 3 (VPN, статика)
+
+│   └── peripherals/     # Эпик 4 (CAN, I2C)
+
+├── site.yml             # Главный файл, который "собирает" все роли вместе
+
+└── inventory.ini        # Список ваших IP-адресов Raspberry Pi
+
 
 
 
